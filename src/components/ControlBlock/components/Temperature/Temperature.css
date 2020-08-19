@@ -1,0 +1,59 @@
+.wrapper-radio_btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    position: relative;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #fff;
+    perspective: 90px;
+  }
+  .button_farenheit{
+    z-index: 1;
+    height: 42px;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    color: #fff;
+    background: rgba(76,82,85,.4);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    user-select: none;}
+  .button_farenheit::before{content: "°F";}
+  
+  .button_celsium{
+    z-index: 1;
+    height: 42px;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    color: #fff;
+    background: rgba(76,82,85,.4);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    user-select: none;
+  }
+  .button_celsium::before{content: "°C";}
+  
+  .focused_temp{background:red;
+  }

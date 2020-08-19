@@ -1,0 +1,20 @@
+.weather_today_block{
+  flex: 1 1 70%;
+}
+.datetime{
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.5);
+  font-weight: 700;
+  font-size: 21px;
+  font-family: Arial,Helvetica,sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media (max-width: 426px){
+  .datetime{width: 88%;}
+}
+@media (max-width: 320px){
+  .datetime{width: 85%;}
+}

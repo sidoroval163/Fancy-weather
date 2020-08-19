@@ -1,0 +1,52 @@
+.weather_days_block{
+    display: flex;
+    
+    justify-content: space-around;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);}
+
+.day_block{display: flex;
+   
+    flex-wrap: wrap;
+    width: 33%;}
+    .weekdayText{
+        align-self: center;
+        text-align: center;
+        width: 100%;
+        font-size: 1em;
+        font-weight: 700;
+        width: 100%;
+    font-size: 1em;
+        font-family: Arial,Helvetica,sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .weekdayTemp{
+        width: 30%;
+        padding: 15px 15px 0 15px;
+       
+        
+        font-size: 2em;
+        
+        align-self: center;
+        text-align: center;
+        
+        font-family: Arial,Helvetica,sans-serif;
+        color: #fff;
+        text-transform: uppercase;}
+.weatherPic{
+            width: 40%;
+            padding: 15px 25px 15px 0;
+        }
+
+        @media (max-width: 425px){
+            
+            .weather_days_block{width:88%}
+        }
+
+        @media (max-width: 320px){
+            
+            .weather_days_block{width:85%}
+        }

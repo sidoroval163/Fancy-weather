@@ -1,0 +1,39 @@
+.todayTemp{font-size: 18px;
+    box-sizing: inherit;
+    display: grid;
+    -webkit-box-align: center;
+    align-items: center;
+    grid-template-areas: "temp sign"
+    "temp prop";
+    grid-template-columns: 2fr 1fr;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    justify-items: center;}
+.Temp{font-weight: 400;
+    font-size: 9em;
+    grid-area: temp;}
+
+.WeatherImage{
+    width: 80%;
+    grid-area: sign;
+}
+.WeatherProps{
+    align-self: flex-start;
+    grid-area: prop;
+    justify-self: left;}
+    @media (max-width: 425px){
+        .todayTemp{width: 88%;}
+        .Temp{font-weight: 400;
+            font-size: 5em;
+            }
+      }
+      @media (max-width: 320px){
+        .todayTemp{width: 85%;}
+        .Temp{font-weight: 400;
+            font-size: 2em;
+            }
+      }
+    
+    

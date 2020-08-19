@@ -1,0 +1,21 @@
+.switchBackgroundButton{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    color: #fff;
+    background: rgba(76,82,85,.4);
+    cursor: pointer;
+    line-height: 54px;
+    background-color: grey;
+    background-image: url(./images/refresh_icon.svg);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    user-select: none;}
+  .switchBackgroundButton:hover{
+    cursor:pointer;}

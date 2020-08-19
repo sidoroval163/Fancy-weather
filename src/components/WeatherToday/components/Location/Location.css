@@ -1,0 +1,23 @@
+.location{
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    font-weight: 700;
+    font-size: 21px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+@media (max-width: 425px){
+    .location{width: 88%;
+        font-size: 17px;}
+  }
+  @media (max-width: 320px){
+            
+    .location{width: 85%;
+        font-size: 12px;}
+  }
+
+ 
+
